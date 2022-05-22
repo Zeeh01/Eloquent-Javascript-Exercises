@@ -1,0 +1,7 @@
+let triangle = "";
+let count = 0;
+while (count < 7) {
+  count += 1;
+  triangle += "#"
+  console.log(triangle);
+}
