@@ -1,0 +1,6 @@
+for (let n = 1; n <= 8; n += 1) {
+  if (n % 2 == 0)
+    console.log(" # # # #");
+  else
+    console.log("# # # #");
+}
