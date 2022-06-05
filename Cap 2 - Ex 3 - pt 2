@@ -1,12 +1,15 @@
 /*
-I'm still working on the width solution. The height was somewhat easy to figure it out, but the width is making my brain hurt.
+I didn't wanted to look at the solution, but I checked on the internet a way to make a string repeat itself by a certain value.
+This was the way I managed to do it:
 */
 
 let height = prompt("Type the height");
 let width = prompt("Type the width");
+let str1 = " #"
+let str2 = "# "
 for (let n = 1; n <= height; n += 1) {
   if (n % 2 == 0)
-    console.log(" # # # #");
+    console.log(str1.repeat(width));
   else
-    console.log("# # # #");
+    console.log(str2.repeat(width));
 }
